@@ -1,0 +1,277 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+header {
+  padding: 5px 0;
+}
+.logo {
+	width: 180px;
+}
+.menu ul li a {
+  padding: 0 5px 5px !important;
+}
+.h_btn {
+  margin-left: 0;
+}
+.m_width {
+  width: 280px;
+}
+.m_h1 {
+  font-size: 20px;
+}
+.m_input {
+  padding: 6px 8px;
+}
+.modal_btn {
+  padding: 7px 0;
+}
+/*banner start*/
+.banner {
+  padding-bottom: 60px;
+}
+.b_img {
+    margin: 0 0 30px;
+}
+.b_text {
+	text-align: center;
+}
+.b_h1 {
+	margin: 10px 0 20px;
+	font-size: 30px;
+	line-height: 45px;
+}
+.b_p2 {
+	margin: 0;
+  line-height: 30px;
+}
+/*feature start*/
+.cp_bottom {
+  padding-bottom: 60px; 
+}
+.f_item {
+  margin-top: 30px;
+}
+.f_h2 {
+  font-size: 20px;
+}
+/*course start*/
+.c_h1 {
+  font-size: 28px;
+}
+.c_item {
+  margin: 30px 0 0;
+  padding: 15px 15px 20px;
+}
+.c_li:not(:last-child) {
+  margin-right: 0;
+}
+.c_left ul li img, .c_right ul li img {
+  width: 20px;
+}
+.c_left ul li span, .c_right ul li span {
+  font-size: 15px;
+}
+/*testimonial start*/
+.t_item {
+  margin-top: 30px;
+  text-align: center;
+}
+.t_img {
+  padding: 0 50px 20px;
+}
+.t_text p {
+  line-height: 24px;
+}
+/*foot_top start*/
+.foot_top {
+  text-align: center;
+}
+.ft_info {
+  padding: 0;
+}
+.ft_info p {
+  line-height: 24px;
+}
+.ft_link {
+  margin: 35px 0 0;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+header {
+  padding: 5px 0;
+}
+.logo {
+	width: 190px;
+}
+.menu ul li a {
+  padding: 0 5px 5px !important;
+}
+.h_btn {
+  margin-left: 0;
+}
+.m_width {
+  width: 350px;
+}
+.m_h1 {
+  font-size: 22px;
+}
+.m_input {
+  padding: 7px 10px;
+}
+.modal_btn {
+  padding: 8px 0;
+}
+/*banner start*/
+.banner {
+  padding-bottom: 60px;
+}
+.b_img {
+    margin: 0 50px 30px;
+}
+.b_text {
+	text-align: center;
+}
+.b_h1 {
+	margin: 10px 100px 20px;
+	font-size: 30px;
+	line-height: 45px;
+}
+.b_p2 {
+	margin: 0 50px;
+  line-height: 30px;
+}
+/*feature start*/
+.cp_bottom {
+  padding-bottom: 60px; 
+}
+.f_item {
+  margin-top: 30px;
+}
+.f_h2 {
+  font-size: 20px;
+}
+/*course start*/
+.c_h1 {
+  font-size: 28px;
+}
+.c_item {
+  margin: 30px 50px 0;
+  padding: 15px 15px 20px;
+}
+/*testimonial start*/
+.t_item {
+  margin-top: 30px;
+  text-align: center;
+}
+.t_img {
+  padding: 0 130px 20px;
+}
+/*foot_top start*/
+.foot_top {
+  text-align: center;
+}
+.ft_info {
+  padding: 0 70px 35px;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a {
+  padding: 0 5px 5px !important;
+}
+.h_btn {
+  margin-left: 0;
+}
+.m_width {
+  width: 400px;
+}
+/*banner start*/
+.b_img {
+    margin: 0 50px 30px;
+}
+.b_text {
+	text-align: center;
+}
+.b_h1 {
+  margin: 10px 160px 20px;
+  font-size: 35px;
+  line-height: 50px;
+}
+.b_p2 {
+	margin: 0 110px;
+  line-height: 30px;
+}
+/*feature start*/
+.cp_bottom {
+  padding-bottom: 80px; 
+}
+.f_item {
+  margin-top: 40px;
+}
+/*course start*/
+.c_h1 {
+  font-size: 30px;
+}
+.c_item {
+  margin: 40px 120px 0;
+}
+/*testimonial start*/
+.t_item {
+  margin-top: 40px;
+}
+/*foot_top start*/
+.foot_top {
+  text-align: center;
+}
+.ft_info {
+  padding: 0 80px 35px;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.m_width {
+  width: 460px;
+}
+/*course start*/
+.c_item {
+  padding: 25px 15px 30px;
+}
+.c_li:not(:last-child) {
+  margin-right: 0;
+}
+.c_left ul li img, .c_right ul li img {
+  width: 20px;
+}
+.c_left ul li span, .c_right ul li span {
+  font-size: 15px;
+}
+
+}
+
+/*Extra large devices (extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*Extra extra large devices (extra extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*banner start*/
+.b_h1 {
+  margin: 10px 110px 20px 0;
+}
+/*foot_top start*/
+.ft_info {
+  padding-right: 130px;
+}
+
+}
